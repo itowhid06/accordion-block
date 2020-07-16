@@ -3,6 +3,16 @@
   "title": "Accordion",
   "description": "Adds an accordion block in the Block Editor.",
   "category": "common",
+  "assets": {
+	"editor": {
+	  "js": "src/index.js",
+	  "scss": "src/editor.scss"
+	},
+	"view": {
+	  "js": "src/view/index.js",
+	  "scss": "src/view/style.scss"
+	}
+  },
   "attributes": {
 	"accordion": {
 	  "type": "array",
