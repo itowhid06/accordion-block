@@ -1,0 +1,13 @@
+{
+  "name": "accordion",
+  "assets": {
+	"editor": {
+	  "js": "src/index.js",
+	  "scss": "src/editor.scss"
+	},
+	"view": {
+	  "js": "src/view/index.js",
+	  "scss": "src/view/style.scss"
+	}
+  }
+}

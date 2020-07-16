@@ -1,0 +1,16 @@
+{
+  "name": "gutenberg-blocks-library/accordion",
+  "title": "Accordion",
+  "description": "Adds an accordion block in the Block Editor.",
+  "category": "common",
+  "attributes": {
+	"accordion": {
+	  "type": "array",
+	  "default": []
+	},
+	"accordionTitleTag": {
+	  "type": "string",
+	  "default": "h3"
+	}
+  }
+}
