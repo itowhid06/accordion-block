@@ -1,0 +1,95 @@
+/** Core styling */
+/**
+ * Colors
+ */
+/**
+ * Colors
+ */
+/**
+ * Often re-used variables
+ */
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Button states and focus styles
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+/**
+ * Breakpoints & Media Queries
+ */
+.gbc-accordion__row {
+  border: 1px solid #e2e4e7;
+  border-radius: 0.3125rem 0.3125rem 0 0;
+  margin-bottom: 0.625rem;
+  width: 100%; }
+  .gbc-accordion__row .gbc-accordion__row-content {
+    margin: 0.5rem 0; }
+
+.gbc-accordion__header {
+  background-color: #e2e4e7;
+  padding: 0.625rem; }
+
+.gbc-accordion__row-title {
+  margin: 0; }
+  .gbc-accordion__row-title.rich-text {
+    margin: 0; }
+
+.gbc-accordion__content {
+  padding: 0.625rem; }
+
+.gbc-accordion__insert {
+  margin-top: 0.625rem; }
+
+.js-enabled.gbc-accordion__row {
+  margin-top: 0.625rem; }
+  .js-enabled.gbc-accordion__row .gbc-accordion__header {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    position: relative; }
+    .js-enabled.gbc-accordion__row .gbc-accordion__header::after {
+      content: "+";
+      width: 100%;
+      text-align: right;
+      right: 0.625rem;
+      top: 50%;
+      transform: translate(0, -50%);
+      position: absolute; }
+  .js-enabled.gbc-accordion__row .gbc-accordion__content {
+    overflow: hidden;
+    transition-property: all;
+    transition-timing-function: ease; }
+  .js-enabled.gbc-accordion__row .gbc-accordion__content {
+    padding-bottom: 0;
+    padding-top: 0; }
+  .js-enabled.gbc-accordion__row.js-enabled > .gbc-accordion__content {
+    visibility: hidden; }
+  .js-enabled.gbc-accordion__row.is-active > .gbc-accordion__content {
+    visibility: visible; }
+  .js-enabled.gbc-accordion__row.is-active > .gbc-accordion__header::after {
+    content: "\2013"; }
+
+
+/*# sourceMappingURL=style.css.map*/
